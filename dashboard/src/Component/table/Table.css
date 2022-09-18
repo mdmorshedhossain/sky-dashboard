@@ -1,0 +1,11 @@
+.itemsList .MuiTableCell-root {
+    padding: 5px;
+    text-align: center;
+}
+.itemsList .MuiInput-underline:before{
+    border-bottom: none;
+}
+.itemsList .MuiToolbar-gutters{
+    padding-left: 0;
+    margin-left: 0px;
+}
