@@ -1,0 +1,23 @@
+.slide_img {
+    height: 430px;
+    width: 100%;
+}
+
+.slide_img img {
+    height: 430px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For desktop: mobile:*/
+    .slide_img {
+        height: 250px;
+        width: 100%;
+    }
+    
+    .slide_img img {
+        height: 250px;
+        width: 100%;
+    }
+    
+}

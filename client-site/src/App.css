@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500&family=Roboto+Slab:wght@100;200;300;400;700&display=swap');
+
+* {
+  font-family: 'Roboto';
+}
+
+.bg__body {
+  background-color: #ffffff;
+}
+
+.btn_learn_more {
+  background: #5AAB46;
+  border-radius: 10px;
+  color: white !important;
+}
+
+.btn_learn_more:hover {
+  color: white !important;
+}
+
+.header_text_normal {
+  font-weight: 300;
+  color: #7c898b;
+
+}
+
+.header_text_normal_bm {
+  font-weight: 300;
+  color: #7c898b;
+  border-bottom-style: solid;
+  border-bottom-color: #143D46;
+}
+
+.header_text_bold {
+  font-weight: 500;
+  color: #143D46;
+}
+
+.header_description {
+  color: #0D2C49;
+  line-height: 173%;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.btn_read {
+  color: #fff;
+  background: #0C8D2D;
+  box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.15);
+  padding: 7px 25px;
+  border-radius: 10px 20px;
+}
+
+.btn_read:hover {
+  color: #fff;
+  background: #0C8D2D;
+  box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.15);
+}
+
+.tour_img img {
+  width: 100%;
+  height: 320px;
+}
+
+/* slider  */
+.events_carousel {
+  padding: 0px 30px;
+}
+
+.events_carousel .slick-prev:before,
+.slick-next:before {
+  color: #484848 !important;
+}
+
+.events_carousel .slick-slider .slick-slide {
+  padding: 0 6px;
+}
+
+.events_carousel .slick-slider,
+.slick-list,
+.slick-track {
+  height: 100%;
+}
+
+.events_carousel_box_card {
+  min-height: 100%;
+}
+
+.events_carousel_box_card .card {
+  min-height: 510px !important;
+  max-height: 100px !important;
+  overflow: hidden;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: none !important;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+.events_carousel_date {
+  font-size: 14px;
+  color: #143D46;
+  margin-bottom: 10px !important;
+}
+
+.events_carousel_card_title {
+  color: #5AAB46;
+  line-height: 120%;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: start;
+  margin-bottom: 0rem !important;
+  min-height: 30px !important;
+  max-height: 40px !important;
+  overflow: hidden;
+}
+
+.events_carousel_discription {
+  color: #143D46;
+  margin-top: 5px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 173%;
+  min-height: 150px !important;
+  max-height: 130px !important;
+  overflow: hidden;
+}
+
+.btn_read_carousel {
+  color: #fff;
+  background: #0C8D2D;
+  box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.15);
+  padding: 6px 20px;
+  border-radius: 10px;
+}
+
+.btn_read_carousel:hover {
+  color: #fff;
+  background: #0C8D2D;
+  box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* our events  */
+.our_events_card {
+  min-height: 100%;
+}
+
+.our_events_card .card {
+  min-height: 525px !important;
+  max-height: 100px !important;
+  overflow: hidden;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: none !important;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+.upcoming_events_card {
+  min-height: 430px !important;
+  max-height: 100px !important;
+  overflow: hidden;
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+/* upcoming slider  */
+.card_bg {
+  min-height: 430px !important;
+  max-height: 100px !important;
+  overflow: hidden;
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+.header_event_card_date {
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+  color: #143D46;
+}
+
+.header_event_card_month {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  color: #143D46;
+  margin-bottom: 0rem !important;
+}
+
+.upc_events_carousel_card_title {
+  color: #5AAB46;
+  line-height: 120%;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: start;
+  margin-bottom: 0rem !important;
+  min-height: 30px !important;
+  max-height: 40px !important;
+  overflow: hidden;
+}
+
+.upc_events_carousel_discription {
+  color: #143D46;
+  margin-top: 5px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 173%;
+  min-height: 145px !important;
+  max-height: 130px !important;
+  overflow: hidden;
+}
+
+
+
+/* tourism news slider */
+.tourism_carousel {
+  padding: 0px 30px;
+}
+
+.tourism_carousel .slick-prev:before,
+.slick-next:before {
+  color: #484848 !important;
+}
+
+.tourism_carousel .slick-slider .slick-slide {
+  padding: 0 6px;
+}
+
+.tourism_carousel .slick-slider,
+.slick-list,
+.slick-track {
+  height: 100%;
+}
+
+.tourism_carousel_box_card {
+  min-height: 100%;
+}
+
+.tourism_carousel_box_card .card {
+  min-height: 450px !important;
+  max-height: 100px !important;
+  overflow: hidden;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: none !important;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+.tourism_carousel_date {
+  font-size: 14px;
+  color: #143D46;
+  margin-bottom: 10px !important;
+}
+
+.tourism_carousel_card_title {
+  color: #5AAB46;
+  font-weight: 500;
+  line-height: 120%;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: start;
+  margin-bottom: 0rem !important;
+  min-height: 30px !important;
+  max-height: 40px !important;
+  overflow: hidden;
+}
+
+.tourism_carousel_discription {
+  color: #143D46;
+  margin-top: 5px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 173%;
+  text-align: justify;
+  min-height: 150px !important;
+  max-height: 130px !important;
+  overflow: hidden;
+}
+
+.gallery_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.partners_carousel {
+  padding: 0px 30px;
+}
+
+.partners_carousel_box_card .card {
+  min-height: 120px !important;
+  text-align: start;
+  max-height: 100px !important;
+  box-shadow: 0px 0px 11px 1px rgb(0 0 0 / 15%);
+  border-radius: 20px;
+  border: none !important;
+  margin: 10px 0px;
+  z-index: 1;
+}
+
+.partners_carousel .slick-prev:before,
+.slick-next:before {
+  color: #484848 !important;
+}
+
+.partners_carousel .slick-slider .slick-slide {
+  padding: 0 6px;
+}
+
+.partners_carousel .slick-slider,
+.slick-list,
+.slick-track {
+  height: 100%;
+}
+
+/* contact  */
+
+.banner_img img{
+  height: 430px;
+  width: 100%;
+}
+.banner_img {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.banner_img_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contact_bg{
+  background: #055C78;
+  height: 100%;
+  padding: 25px;
+  border-radius: 10px;
+}
+.header_contact{
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+.contact_bg .card{
+  background: #055C78;
+  border: none !important;
+}
+.contact_bg ul li span{
+ color:#fff;
+ padding: 0px 30px 0px 70px;
+ line-height: 180%;
+}
+.contact_bg ul li span p{
+ padding: 0px 20px;
+}
+.contact_enquiry{
+  padding-left: 40px;
+}
+
+/* board of directors  */
+.board_hr {
+  width: 500px;
+  padding: 2px;
+  margin: 0 auto;
+}
+.board_head_card{
+  margin: 0 auto;
+  width: 270px;
+  height: 260px;
+  text-align: center;
+}
+.board_img img {
+  width: 180px;
+  height: 200px;
+}
+.board_title {
+  margin-top: 15px;
+  color: #404040;
+  line-height: 120%;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 0rem !important;
+  overflow: hidden;
+}
+
+.board_subtitle {
+  color: #767676;
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 122%;
+  min-height: 35px;
+  max-height: 15px;
+  overflow: hidden;
+}
+
+.sub_board_card .card{
+  text-align: center;
+  border: none !important;
+}
+.sub_board_img img {
+  width: 115px;
+  height: 125px;
+}
+.sub_board_title {
+  margin-top: 15px;
+  color: #404040;
+  line-height: 120%;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0rem !important;
+  overflow: hidden;
+}
+
+.sub_board_subtitle {
+  color: #767676;
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 122%;
+  min-height: 35px;
+  max-height: 15px;
+  overflow: hidden;
+}
+
+
+
+/* airlines */
+/* room booking start  */
+.rb_search {
+  min-height: calc(1.5em + 0.5rem + 2px);
+  padding: 0.25rem 0rem !important;
+  width: 100%;
+}
+.rb_search .MuiOutlinedInput-adornedStart {
+  padding-left: 8px !important;
+  padding-bottom: 1px !important;
+}
+.rb_search .MuiIconButton-root {
+  padding: 0px !important;
+  font-size: 12px !important;
+}
+.rb_search .MuiOutlinedInput-input {
+  padding: 4px 8px !important;
+}
+.rb_search .MuiSvgIcon-root {
+  font-size: 1.3rem !important;
+}
+/* room booking end */
+
+.airlines_card .card {
+  min-height: 300px !important;
+  max-height: 100px !important;
+  overflow: hidden;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: none !important;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+.airlines_title {
+  color: #0C8D2D;
+  line-height: 120%;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: start;
+  margin-bottom: 0rem !important;
+  min-height: 30px !important;
+  max-height: 40px !important;
+  overflow: hidden;
+}
+.airlines_add ul li span{
+  font-size: 14px;
+  color: #143D46;
+}
+.airlines_add ul li span p{
+  font-size: 14px;
+  color: #143D46;
+  padding: 0px 15px;
+}
+.allroom_pagination .link_no{
+  border: 0px solid #dee2e6 !important;
+  color: #143D46;
+}
+
+
+/* pagination  */
+.paginationBttns {
+  width: 100%;
+  height: 40px;
+  list-style: none !important;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid #dee2e6;
+  color: #143D46;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #adb5bd;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #adb5bd;
+}
+
+.paginationDisabled a {
+  color: grey;
+  background-color: grey;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  /* For desktop: mobile:*/
+  .tour_img img {
+    width: 100%;
+    height: 210px;
+    padding: 0px 10px;
+  }
+
+  h3 {
+    font-size: 20px !important;
+  }
+
+  .tourism_carousel_date {
+    font-size: 13px;
+  }
+
+  .partners_carousel .slick-dots {
+    bottom: -35px !important;
+  }
+
+  .btn_read {
+    padding: 5px 12px;
+    border-radius: 10px 20px;
+  }
+
+  .events_carousel_box_card .card {
+    min-height: 425px !important;
+    max-height: 100px !important;
+  }
+
+  .tourism_carousel_box_card .card {
+    min-height: 400px !important;
+    max-height: 100px !important;
+  }
+
+  .events_carousel_card_title {
+    font-size: 15px;
+    margin-bottom: 0rem !important;
+    min-height: 25px !important;
+    max-height: 35px !important;
+    overflow: hidden;
+  }
+
+  .events_carousel_discription {
+    font-size: 13px;
+    line-height: 163%;
+    min-height: 125px !important;
+    max-height: 110px !important;
+    overflow: hidden;
+  }
+  .our_events_card .card {
+    min-height: 490px !important;
+    max-height: 100px !important;
+  }
+  .card_bg {
+    min-height: 380px !important;
+    max-height: 100px !important;
+  }
+
+  .tourism_carousel_discription {
+    font-size: 13px;
+    line-height: 163%;
+    min-height: 145px !important;
+    max-height: 130px !important;
+    overflow: hidden;
+  }
+
+  .partners_carousel_box_card .card {
+    min-height: 120px !important;
+    max-height: 100px !important;
+  }
+  .banner_img img{
+    height: 230px;
+    width: 100%;
+  }
+  .contact_bg ul li span{
+    padding: 0px 20px 0px 40px;
+    line-height: 160%;
+   }
+   .contact_bg ul li span p{
+    padding: 0px 20px;
+   }
+   .contact_enquiry{
+    padding-left: 0px;
+  }
+  .board_hr {
+    width: 300px;
+  }
+  .board_head_card{
+    width: 270px;
+    height: 200px;
+  }
+  .board_img img {
+    width: 135px;
+    height: 150px;
+  }
+  .upcoming_events_card {
+    min-height: 430px !important;
+    max-height: 100px !important;
+    overflow: hidden;
+  }
+}
